@@ -150,3 +150,98 @@ footer .email a {
 .inline {
 	display: inline-block;
 }
+
+.content .info-section .next-event {
+    border-top: solid 2px #ed1b35;
+    padding: 10px 15px 10px;
+    margin-bottom: 20px;
+}
+
+.next-event-label {
+    font-size: 0.5em;
+    color: #ed1b35;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0 0 8px;
+}
+
+.next-event-boxes {
+    display: flex;
+    gap: 0;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.next-event-box {
+    flex: 1;
+    text-align: center;
+    padding: 6px 20px 8px;
+    border-top: 1px solid #ed1b35;
+}
+
+.next-event-box + .next-event-box {
+    border-left: 1px solid #333;
+}
+
+.next-event-box .event.name  { margin: 0 0 4px; }
+.next-event-box .event.date  { margin: 0 0 2px; }
+.next-event-box .event.time  { color: #ccc; margin: 0; }
+
+.next-event-box .event.talk-title {
+    font-style: italic;
+    margin: 0 0 4px;
+}
+
+.next-event-box .event.speakers {
+    color: #aaa;
+    margin: 0 0 12px;
+}
+
+.next-event-box .event.register { margin: 0; }
+
+.next-event-box .event.register a {
+    display: inline-block;
+    font-size: 0.65em;
+    color: #ed1b35;
+    border: 1px solid #ed1b35;
+    padding: 5px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.next-event-box .event.register a:hover {
+    background: #ed1b35;
+    color: #000;
+    text-decoration: none;
+}
+
+.content .info-section .next-event .event.special-note {
+    font-size: 0.8em;
+    color: #ffcc00;
+    text-align: center;
+    margin: 10px 0 0;
+    padding: 4px 0;
+}
+
+.content .info-section .next-event .event.missed {
+    font-size: 0.7em;
+    color: #666;
+    text-align: center;
+    margin: 6px 0 0;
+}
+
+.content .info-section .next-event .event.missed a {
+    color: #777;
+    text-decoration: none;
+}
+
+.content .info-section .next-event .event.missed a:hover {
+    color: #ed1b35;
+}
+
+@media (max-width: 767px) {
+    .next-event-boxes { flex-direction: column; }
+    .next-event-box + .next-event-box { border-left: none; border-top: 1px solid #333; }
+}
