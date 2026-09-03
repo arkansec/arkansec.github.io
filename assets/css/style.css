@@ -245,3 +245,48 @@ footer .email a {
     .next-event-boxes { flex-direction: column; }
     .next-event-box + .next-event-box { border-left: none; border-top: 1px solid #333; }
 }
+
+footer .footer-links {
+    text-align: center;
+    margin-top: 15px;
+}
+
+footer .footer-links a {
+    font-size: 0.9em;
+    color: #999;
+    text-decoration: none;
+}
+
+footer .footer-links a:hover {
+    color: #ed1b35;
+}
+
+.policy-page {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.policy-page .back-link {
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 0.6em;
+    text-decoration: none;
+}
+
+.policy-page .policy-title {
+    margin-top: 0;
+}
+
+.policy-page .policy-intro {
+    font-style: italic;
+    color: #444;
+}
+
+.policy-page h3 {
+    margin-top: 30px;
+}
+
+.policy-page p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
