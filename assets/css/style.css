@@ -146,6 +146,10 @@ footer .email a {
 	font-size: 2em;
 }
 
+footer .more-info {
+	text-align: right;
+}
+
 /* Utility Classes */
 .inline {
 	display: inline-block;
