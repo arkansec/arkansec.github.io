@@ -252,7 +252,7 @@ footer .footer-links {
 }
 
 footer .footer-links a {
-    font-size: 0.9em;
+    font-size: 1.1em;
     color: #999;
     text-decoration: none;
 }
@@ -264,12 +264,13 @@ footer .footer-links a:hover {
 .policy-page {
     max-width: 800px;
     margin: 0 auto;
+    float: none;
 }
 
 .policy-page .back-link {
     display: inline-block;
     margin-bottom: 15px;
-    font-size: 0.6em;
+    font-size: 1.1em;
     text-decoration: none;
 }
 
