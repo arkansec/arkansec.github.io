@@ -255,6 +255,7 @@ footer .footer-links a {
     font-size: 1.1em;
     color: #999;
     text-decoration: none;
+    margin: 0 8px;
 }
 
 footer .footer-links a:hover {
