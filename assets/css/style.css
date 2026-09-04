@@ -85,6 +85,24 @@ header h1 .header-year {
 	margin-bottom: 10px;
 }
 
+.content .info-section .main-event .event.learn-more {
+	margin-top: 10px;
+}
+
+.content .info-section .main-event .event.learn-more a {
+	display: inline-block;
+	font-size: 0.5em;
+	color: white;
+	background-color: #ed1b35;
+	text-decoration: none;
+	padding: 8px 20px;
+	border-radius: 4px;
+}
+
+.content .info-section .main-event .event.learn-more a:hover {
+	background-color: #c8152c;
+}
+
 .content .info-section .info-panels {
 	padding: 20px 0px;
 	margin-bottom: 20px;
@@ -259,6 +277,11 @@ footer .footer-links a {
     font-size: 1.1em;
     color: #999;
     text-decoration: none;
+    padding: 0 10px;
+}
+
+footer .footer-links a + a {
+    border-left: solid 1px #ed1b35;
 }
 
 footer .footer-links a:hover {
