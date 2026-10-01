@@ -57,6 +57,27 @@ header h1 .header-year {
 	color: #ed1b35;
 }
 
+.site-banner {
+	background-color: #ed1b35;
+	padding: 10px 20px;
+	text-align: center;
+}
+
+.site-banner .site-banner-text {
+	margin: 0;
+	color: #000;
+	font-size: 1.1em;
+}
+
+.site-banner .site-banner-text a {
+	color: #000;
+	font-weight: 600;
+}
+
+.site-banner .site-banner-text a:hover {
+	color: #222;
+}
+
 .content .mission-info {
 	background-color: white;
 	padding: 20px;
